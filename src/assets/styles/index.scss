@@ -1,14 +1,25 @@
-//layout
-@import "./layout/header.scss";
-@import "./layout/content.scss";
-@import "./layout/footer.scss";
+.chatContainer{
 
-// common
-@import "./common/icon.scss";
-@import "./common/body.scss";
-@import "./common/root.scss";
+    .react-chatbot-kit-chat-container{
+        width: 100%;
+        height:  97svh;
+        background-color: #fcfcfc;
+      
+    }
 
-//pages
-@import "./pages/matchPage.scss";
-@import "./pages/tabLabel.scss";
-@import "./pages/tabContent.scss";
+    .react-chatbot-kit-chat-message-container{
+        height:  624px;
+    }
+
+    .react-chatbot-kit-chat-bot-message{
+        margin: 0;
+        width: max-content;
+        max-width: 80%;
+    }
+
+    .react-chatbot-kit-user-chat-message{
+        max-width: 80%;
+
+    }
+
+}
