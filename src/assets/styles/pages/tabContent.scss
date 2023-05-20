@@ -1,0 +1,49 @@
+
+ 
+.tabs {
+
+    .ant-tabs-tabpane{ 
+      display: flex;
+      justify-content: center;
+      padding: 0 1rem;
+      direction: ltr;}
+    
+    .ant-collapse-header-text{
+        direction: rtl;
+         
+    }
+     
+    .tabContent .ant-space-vertical .ant-space {
+        width: 100%;
+      }
+      .ant-collapse-content.ant-collapse-content-active{
+        position: static;
+        
+      }
+      .tabContent{
+        .ant-collapse-item{
+          .ant-collapse-item-active .ant-collapse-header{
+            background-color: white;
+            border-radius:  8px 8px 0 0;
+          }
+          div.ant-collapse-header{
+            background-color: white;
+            border-radius:  8px 8px 8px 8px;
+          }
+}}
+    .ant-collapse-header{
+      min-width:calc(100vw - 2rem) }
+    .row{
+      width: 100%;
+    }
+    .col{
+      // border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      
+    }
+     
+    .left-team-text{ justify-content: end;text-align: end;}
+    .right-team-text{ justify-content: start;}
+}
+ 

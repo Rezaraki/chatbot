@@ -1,0 +1,11 @@
+.content{
+     
+    .ant-tabs-content-holder .ant-tabs-content.ant-tabs-content-top{
+        height: calc(100svh - 16rem);
+        position: static;
+        direction: ltr;
+        overflow-y: scroll;
+        padding-bottom: 0.8rem;
+    }
+ 
+}

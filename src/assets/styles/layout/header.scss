@@ -1,0 +1,29 @@
+.header{
+    background-color: white;
+    padding:0 1rem;
+    height: 8rem; 
+
+   &-top{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1rem;
+
+   }
+
+   &-search {
+
+    input{direction: rtl;
+    background-color: rgb(245 245 245);
+    border-radius: 0;
+   }
+   button{background-color: rgb(245 245 245);}
+}
+    .icon{
+
+        align-self: self-end;
+        width: 3rem;
+
+    }
+}
