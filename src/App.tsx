@@ -1,17 +1,17 @@
 
-import './assets/styles/index.scss' 
-import Layout from './components/layout/Layout'
-import MatchPage from './components/pages/matches/MatchPage'
+import './assets/styles/index.scss'  
+import MatchPage from './components/pages/matches/MatchPage' 
+import 'react-chatbot-kit/build/main.css'
 
 function App() { 
 
   return (
      
-    <Layout>
+    // <Layout>
       
       <MatchPage/>
      
-    </Layout>
+    // {/* </Layout> */}
      
   )
 }
